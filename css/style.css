@@ -5,3 +5,11 @@ box-shadow: -5px 5px 10px rgba(26, 2, 68, 0.2), 5px -5px 10px rgba(26, 2, 68, 0.
 h1,h2,h3,h4,h5,h6,p,span,button,a{
 	font-family: 'Montserrat', sans-serif;
 }
+#chart{
+	width: 600px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
