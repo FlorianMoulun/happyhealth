@@ -51,10 +51,10 @@
 							<div class="placeconti mt-9">
 							<h3 class="text-[#FEC505] text-center font-bold mt-3">International Day of Hapiness</h3>
 								<p class="intertxt text-4xl text-center font-bold">20th March 2022</p>
-								<i class="share fa-solid fa-up-right-from-square mt-5 w-full h-2.5 text-center text-[#FEC505]"></i>
+								<a href="https://www.dayofhappiness.net/" target="_blank"><i class="share fa-solid fa-up-right-from-square mt-5 w-full h-2.5 text-center text-[#FEC505]"></i></a>
 							</div>
 					</div>
-				</div>
+				</div> <!--Fin du bloc information-->
 
 				<div class="flex justify-center">
 					<div class="bg-[#1A0245] mr-10 w-96 px-10">
