@@ -26,7 +26,8 @@
 				<a class="hover:text-[#44b562]" href="#">Health</a>
 			</div>
 		</nav>
-		<div class="flex w-full">
+
+		<div class="flex w-full"> <!---Display flex Width 100% -->
 			<section class="w-1/2 ml-32 mt-16">
 				<div>
 					<p class="text-2xl font-bold text-justify">Discover <span class="text-[#FEC505]">Happiness</span> score and <span class="text-[#14D654]">Health</span> score <span class="font-medium">(life expectancy)</span> since 2015 in every country all around the world !</p>
@@ -40,6 +41,7 @@
 					</div>
 				</div>
 			</section>
+
 			<section class="w-2/3 mt-10">
 				<div class="placecont mb-11"> <!--Placer le container au centre du bloc-->
 					<div class="cont bg-[#1a0245] "> <!--Container d'information I-->
@@ -57,7 +59,15 @@
 				</div> <!--Fin du bloc information-->
 
 				<div class="flex justify-center">
-					<div class="bg-[#1A0245] mr-10 w-96 px-10">
+
+					<div class="bg-[#1A0245] mr-10 w-96 px-10"> <!--Bloc Happin Score-->
+						<h3 class="text-[#FEC505] text-center font-bold mt-3">Happiness Score per country</h3>
+						<div class="flex item-center mt-10">
+							<!--REMPLIR LE CHAMPS-->
+						</div>
+					</div>
+
+					<div class="bg-[#1A0245] mr-10 w-96 px-10"> <!--Bloc Champion of happin.-->
 						<div class="flex justify-center"><div class="circle"><i class="fa-solid fa-trophy text-[#FEC505]"></i></div></div>
 						<h3 class="text-[#FEC505] text-center font-bold mt-3">Champion of Happiness</h3>
 						<div class="flex item-center mt-10">
@@ -71,10 +81,10 @@
 							<i class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
 						</div>
 					</div>
-
-
 				</div>
-				<div class="bg-[#1A0245] w-auto mt-10 ml-24 mr-20">
+
+
+				<div class="bg-[#1A0245] w-auto mt-10 ml-24 mr-20"> <!--Container podium-->
 					<div class="container">
 	        			<div class="text-[#EE6355] font-bold flex justify-center mb-5" id="result2"></div>
 	       				<div class="font-bold flex justify-center mb-5" id="result"></div>
@@ -82,10 +92,8 @@
 	                   	 	<i class="fa-solid fa-shuffle"></i>
 	               		 </button>
     				</div>
-    
-
-
 				</div>
+
 			</section>
 		</div>
 
