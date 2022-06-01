@@ -1,4 +1,5 @@
 const res = document.querySelector('#result');
+const res2 = document.querySelector('#result2');
 const btn = document.querySelector('#getData')
 const url = 'https://api.adviceslip.com/advice';
 
@@ -9,6 +10,10 @@ btn.addEventListener('click', () => {
     
 })
 
+window.onload = () => {
+    getAdvice();
+};
+
 function getAdvice(){
 
     fetch(url)
@@ -17,11 +22,13 @@ function getAdvice(){
     })
     .then(adviceData => {
         const Adviceobj = adviceData.slip;
+        res2.innerHTML = `<p>${Adviceobj.id}</p>`;
         res.innerHTML = `<p>${Adviceobj.advice}</p>`;
     })
-    
     .catch(error => {
         
     });
 
 }
+
+
