@@ -13,3 +13,17 @@ h1,h2,h3,h4,h5,h6,p,span,button,a{
 	flex-direction: column;
 	align-items: center;
 }
+
+
+.circle{
+	background: rgba(240, 240, 240, 0.1);
+box-shadow: inset 2.66667px -2.66667px 2.66667px rgba(182, 182, 182, 0.1), inset -2.66667px 2.66667px 2.66667px rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(5.33333px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 200px;
+width: 40px;
+height: 40px;
+padding-left: 11px;
+padding-top: 8px;
+margin-top: -15px;
+}

@@ -17,7 +17,7 @@ const labels = [
       borderColor: '#FEC505',
       data: [6, 3, 5, 6, 2, 5, 3, 5, 0, 7],
       tension: 0.3,
-      borderWidth: 5,
+      borderWidth: 4,
     }]
   };
 
