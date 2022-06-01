@@ -1,0 +1,11 @@
+.cont{
+    width: 624px;
+    height: 238px;
+}
+.placecont{
+    display: flex;
+    justify-content: center;
+}
+.intertxt{
+    margin-top: 3%;
+}
