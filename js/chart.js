@@ -15,7 +15,7 @@ const labels = [
       label: 'Average World Happiness Score over time',
       backgroundColor:'#FEC505',
       borderColor: '#FEC505',
-      data: [6, 3, 5, 6, 2, 5, 3, 5, 0, 7],
+      data: [6, 3, 5, 6, 2, 5, 3, 5, 7, 1],
       tension: 0.3,
       borderWidth: 4,
     }]
