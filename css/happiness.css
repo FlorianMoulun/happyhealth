@@ -1,0 +1,82 @@
+.cont{
+    width: 624px;
+    height: 238px;
+    box-shadow: -5px 5px 10px rgba(21, 2, 55, 0.2), 5px -5px 10px rgba(21, 2, 55, 0.2), -5px -5px 10px rgba(31, 2, 83, 0.9), 5px 5px 13px rgba(21, 2, 55, 0.9), inset 1px 1px 2px rgba(31, 2, 83, 0.3), inset -1px -1px 2px rgba(21, 2, 55, 0.5);
+    border-radius: 15px;
+}
+.placecont{
+    display: flex;
+    justify-content: center;
+}
+.intertxt{
+    margin-top: 3%;
+} 
+
+.containerpodium{
+    height: 29%;
+    width: 79%;
+    background: #1A0245;
+    margin-left: 8.5%;
+    margin-top: 2%;
+    box-shadow: -5px 5px 10px rgba(21, 2, 55, 0.2), 5px -5px 10px rgba(21, 2, 55, 0.2), -5px -5px 10px rgba(31, 2, 83, 0.9), 5px 5px 13px rgba(21, 2, 55, 0.9), inset 1px 1px 2px rgba(31, 2, 83, 0.3), inset -1px -1px 2px rgba(21, 2, 55, 0.5);
+    border-radius: 15px;
+
+}
+
+.champhap, .hapscore{
+    box-shadow: -5px 5px 10px rgba(21, 2, 55, 0.2), 5px -5px 10px rgba(21, 2, 55, 0.2), -5px -5px 10px rgba(31, 2, 83, 0.9), 5px 5px 13px rgba(21, 2, 55, 0.9), inset 1px 1px 2px rgba(31, 2, 83, 0.3), inset -1px -1px 2px rgba(21, 2, 55, 0.5);
+    border-radius: 15px;
+}
+
+
+/*BLOC PODIUM*/
+.blocdate{
+    width: 30%;
+    margin-left:35% ;
+}
+
+.blocpod{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.blocpod3{
+    width: 70%;
+    height: 30%;
+    background-color: #fec505;
+    border-radius: 5px;
+   
+}
+.blocpod1{
+    position: absolute;
+    width: 10%;
+    height: 9%;
+    background-color: #fec505;
+    border-radius: 5px;
+
+}
+.blocpod2{
+    position: absolute;
+    width: 12%;
+    height: 6%;
+    background-color: #fec505;
+    border-radius: 5px;
+    margin-right: 19%;
+}
+.den{
+    position: absolute;
+    margin-bottom: 4.5%;
+    margin-right: 20%;
+}
+
+.fin{
+    position: absolute;
+    margin-bottom: 6.5%;
+}
+.ice{
+    position: absolute;
+    margin-left: 20%;
+    margin-bottom: 3.5%;
+}
