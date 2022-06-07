@@ -19,8 +19,8 @@
 					<h2 class="hidden lg:flex lg:text-2xl">Happy health</h2>
 				</div>
 				<div class="lg:mr-10">
-					<a class="mr-5 md:mr-12 lg:text-2xl" href="happiness">Happy</a>
-					<a class="lg:text-2xl lg:ml-10" href="health">Health</a>
+					<a class="mr-5 md:mr-12 lg:text-2xl hover:text-[#FCC306] hover:underline" href="happiness">Happy</a>
+					<a class="lg:text-2xl lg:ml-10 hover:text-[#4CBA69] hover:underline" href="health">Health</a>
 				</div>
 			</nav>
 			<div class="lg:flex">
