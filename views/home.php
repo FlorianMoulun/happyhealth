@@ -59,9 +59,9 @@
 
 							</div>
 							<div class="flex justify-around mt-10">
-								<i class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
+								<i id="happy_left" class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
 								<p class="text-sm text-[#787878] md:text-base">2022</p>
-								<i class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
+								<i id="happy_right" class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
 							</div>
 						</div>
 
@@ -77,9 +77,9 @@
 								</div>
 							</div>
 							<div class="flex justify-around mt-10">
-								<i class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
+								<i id="health_left" class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
 								<p class="text-sm text-[#787878] md:text-base md:mt-5">2022</p>
-								<i class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
+								<i id="health_right" class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
 							</div>
 						</div>
 					</div>
