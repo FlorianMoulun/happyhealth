@@ -5,15 +5,11 @@ box-shadow: -5px 5px 10px rgba(26, 2, 68, 0.2), 5px -5px 10px rgba(26, 2, 68, 0.
 h1,h2,h3,h4,h5,h6,p,span,button,a{
 	font-family: 'Montserrat', sans-serif;
 }
-#chart{
-	width: 600px;
-	height: 450px;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-}
 
+#chart{
+	box-shadow: -8px 8px 16px rgba(17, 1, 45, 0.2), 8px -8px 16px rgba(17, 1, 45, 0.2), -8px -8px 16px rgba(35, 3, 93, 0.9), 8px 8px 20px rgba(17, 1, 45, 0.9), inset 1px 1px 2px rgba(35, 3, 93, 0.3), inset -1px -1px 2px rgba(17, 1, 45, 0.5);
+border-radius: 15px;
+}
 
 .circle{
 	background: rgba(240, 240, 240, 0.1);
@@ -21,21 +17,49 @@ box-shadow: inset 2.66667px -2.66667px 2.66667px rgba(182, 182, 182, 0.1), inset
 backdrop-filter: blur(5.33333px);
 /* Note: backdrop-filter has minimal browser support */
 border-radius: 200px;
-width: 40px;
-height: 40px;
-padding-left: 11px;
-padding-top: 8px;
-margin-top: -15px;
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+margin-top: -20px;
 }
 
 #getData{
 	background: linear-gradient(135deg, #EE6355 0%, rgba(245, 123, 121, 0.78) 100%);
 box-shadow: -6px 6px 12px rgba(12, 1, 31, 0.2), 6px -6px 12px rgba(12, 1, 31, 0.2), -6px -6px 12px rgba(40, 3, 107, 0.9), 6px 6px 15px rgba(12, 1, 31, 0.9), inset 1px 1px 2px rgba(40, 3, 107, 0.3), inset -1px -1px 2px rgba(12, 1, 31, 0.5);
 border-radius: 200px;
-padding: 10px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: 400px;
-margin-top: 10px;
-margin-bottom: -20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.divboxshadow{
+	box-shadow: -8px 8px 16px rgba(17, 1, 45, 0.2), 8px -8px 16px rgba(17, 1, 45, 0.2), -8px -8px 16px rgba(35, 3, 93, 0.9), 8px 8px 20px rgba(17, 1, 45, 0.9), inset 1px 1px 2px rgba(35, 3, 93, 0.3), inset -1px -1px 2px rgba(17, 1, 45, 0.5);
+border-radius: 15px;
+}
+
+
+.btnhappy{
+	box-shadow: -5px 5px 10px rgba(21, 2, 55, 0.2), 5px -5px 10px rgba(21, 2, 55, 0.2), -5px -5px 10px rgba(31, 2, 83, 0.9), 5px 5px 13px rgba(21, 2, 55, 0.9), inset 1px 1px 2px rgba(31, 2, 83, 0.3), inset -1px -1px 2px rgba(21, 2, 55, 0.5);
+border-radius: 25px;
+
+}
+.btnhealth{
+	box-shadow: -5px 5px 10px rgba(21, 2, 55, 0.2), 5px -5px 10px rgba(21, 2, 55, 0.2), -5px -5px 10px rgba(31, 2, 83, 0.9), 5px 5px 13px rgba(21, 2, 55, 0.9), inset 1px 1px 2px rgba(31, 2, 83, 0.3), inset -1px -1px 2px rgba(21, 2, 55, 0.5);
+border-radius: 25px;
+	
+}
+
+#advice{
+	box-shadow: -5px 5px 10px rgba(21, 2, 55, 0.2), 5px -5px 10px rgba(21, 2, 55, 0.2), -5px -5px 10px rgba(31, 2, 83, 0.9), 5px 5px 13px rgba(21, 2, 55, 0.9), inset 1px 1px 2px rgba(31, 2, 83, 0.3), inset -1px -1px 2px rgba(21, 2, 55, 0.5);
+border-radius: 15px;
+}
+
+.btnhealth:hover{
+	background: linear-gradient(90.43deg, #ABF6BF 0.32%, #44B562 99.68%);
+}
+
+.btnhappy:hover{
+	background: linear-gradient(116.54deg, #FFDD6B 16.45%, #FEC505 86.68%);
+
 }
