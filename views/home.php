@@ -52,7 +52,7 @@
 							<div class="flex justify-center"><div class="circle"><i class="fa-solid fa-trophy text-[#FEC505]"></i></div></div>
 							<h3 class="text-[#FEC505] text-center font-bold text-[10px] md:text-base">Champion of Happiness</h3>
 							<div class="flex mt-5">
-								<img class="w-1/5 ml-5 md:ml-10" src="https://countryflagsapi.com/svg/Switzerland">
+								<img id="flag_happy" class="w-1/5 ml-5 md:ml-10" src="https://countryflagsapi.com/svg/Switzerland">
 								<div class="ml-5">
 									<h2 class="text-sm md:text-base font-bold md:ml-5">Switzerland</h2>
 									<p class="text-sm  md:text-base text-[#787878] text-center">7,6</p>
@@ -61,9 +61,9 @@
 
 							</div>
 							<div class="flex justify-around mt-10">
-								<i class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
-								<p class="text-sm text-[#787878] md:text-base">2022</p>
-								<i class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
+								<i id="arrow_happy_left" class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
+								<p id="year_happy" class="text-sm text-[#787878] md:text-base">2022</p>
+								<i id="arrow_happy_right" class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
 							</div>
 						</div>
 
@@ -72,16 +72,16 @@
 							
 							<h3 class="text-[#14D654] text-center font-bold text-[10px] md:text-base">Champion of Health</h3>
 							<div class="flex mt-5">
-								<img class="w-1/5 ml-5 md:ml-10" src="https://countryflagsapi.com/svg/Iceland">
+								<img id="flag_health" class="w-1/5 ml-5 md:ml-10" src="https://countryflagsapi.com/svg/Iceland">
 								<div class="ml-5">
 									<h2 class="text-sm font-bold md:text-base md:ml-5">Iceland</h2>
 									<p class="text-sm text-[#787878] text-center md:text-base">0,95</p>
 								</div>
 							</div>
 							<div class="flex justify-around mt-10">
-								<i class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
-								<p class="text-sm text-[#787878] md:text-base md:mt-5">2022</p>
-								<i class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
+								<i id="arrow_health_left" class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
+								<p id="year_health" class="text-sm text-[#787878] md:text-base md:mt-5">2022</p>
+								<i id="arrow_health_right" class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
 							</div>
 						</div>
 					</div>
