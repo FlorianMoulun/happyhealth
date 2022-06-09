@@ -47,6 +47,7 @@
 					<div class="hidden lg:flex lg:justify-center lg:mt-5">
 						<img class="w-10/12" src="assets/media/picture_right.svg">
 					</div>
+	 <!--carousel champions happiness-->
 					<div class="mt-20 flex justify-around md:mx-5 lg:mt-5">
 						<div class="bg-[#1A0245] divboxshadow w-1/2 ">
 							<div class="flex justify-center"><div class="circle"><i class="fa-solid fa-trophy text-[#FEC505]"></i></div></div>
@@ -66,7 +67,7 @@
 								<i id="arrow_happy_right" class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
 							</div>
 						</div>
-
+  <!--carousel champions happiness-->
 						<div class="bg-[#1A0245] divboxshadow w-1/2">
 							<div class="flex justify-center"><div class="circle"><i class="fa-solid fa-trophy text-[#14D654] "></i></div></div>
 							
