@@ -55,8 +55,8 @@
 							<div class="flex mt-5">
 								<img id="flag_happy" class="w-1/5 ml-5 md:ml-10" src="https://countryflagsapi.com/svg/Switzerland">
 								<div class="ml-5">
-									<h2 class="text-sm md:text-base font-bold md:ml-5">Switzerland</h2>
-									<p class="text-sm  md:text-base text-[#787878] text-center">7,6</p>
+									<h2 id="country_happy" class="text-sm md:text-base font-bold md:ml-5">Switzerland</h2>
+									<p id="value_happy" class="text-sm  md:text-base text-[#787878] text-center">7,6</p>
 								</div>
 								
 
@@ -67,16 +67,16 @@
 								<i id="arrow_happy_right" class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
 							</div>
 						</div>
-  <!--carousel champions happiness-->
+  <!--carousel champions health-->
 						<div class="bg-[#1A0245] divboxshadow w-1/2">
 							<div class="flex justify-center"><div class="circle"><i class="fa-solid fa-trophy text-[#14D654] "></i></div></div>
 							
-							<h3 class="text-[#14D654] text-center font-bold text-[10px] md:text-base">Champion of Health</h3>
+							<h3 id="country_health" class="text-[#14D654] text-center font-bold text-[10px] md:text-base">Champion of Health</h3>
 							<div class="flex mt-5">
 								<img id="flag_health" class="w-1/5 ml-5 md:ml-10" src="https://countryflagsapi.com/svg/Iceland">
 								<div class="ml-5">
 									<h2 class="text-sm font-bold md:text-base md:ml-5">Iceland</h2>
-									<p class="text-sm text-[#787878] text-center md:text-base">0,95</p>
+									<p id="value_health" class="text-sm text-[#787878] text-center md:text-base">0,95</p>
 								</div>
 							</div>
 							<div class="flex justify-around mt-10">
@@ -111,6 +111,7 @@
 				<p class="text-sm text-[#787878] mt-5">&copy; 2022 Floriane Simmet - Made with &#9829; </p>
 			</footer>
 		</main>
+		<script type="text/javascript" src="js/champion.js"></script>
 		<script type="text/javascript" src="js/advice.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<script type="text/javascript" src="js/chart.js"></script>
