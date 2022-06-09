@@ -39,4 +39,7 @@ fetch(link, {
     document.getElementById('myChart'),
     config
   );
+
+
+   
 });
