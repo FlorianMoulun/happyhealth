@@ -38,7 +38,7 @@
 					</div>
 					<div class="mt-5 bg-[#1A0245] rounded-xl" id="chart">
 						<p class="text-[10px] md:text-base text-center">Average World Hapiness Score over time</p>
-						<div>
+						<div class="lg:w-full lg:h-full">
 			  				<canvas id="myChart"></canvas>
 						</div>
 					</div>
