@@ -1,6 +1,7 @@
 <?php
-
+	
 ?>
+
 	<!DOCTYPE html>
 	<html lang="fr">
 	<head>
@@ -12,17 +13,18 @@
 		<title>Happy Health</title>
 	</head>
 	<body>
-		<main class="bg-[#200355] w-sreen h-full text-stone-50">
+		<main class="bg-[#200355] h-full text-stone-50">
 			<nav class=" h-24 font-bold flex justify-around items-center lg:justify-between">
 				<div class="lg:flex lg:ml-10">
 					<img class="lg:mr-10" src="assets/media/logo.png">
-					<h2 class="hidden lg:flex lg:text-2xl">Happy health</h2>
+					<h2 class="hidden lg:flex lg:text-2xl">Happy health </h2>
 				</div>
 				<div class="lg:mr-10">
 					<a class="mr-5 md:mr-12 lg:text-2xl hover:text-[#FCC306] hover:underline" href="happiness">Happy</a>
 					<a class="lg:text-2xl lg:ml-10 hover:text-[#4CBA69] hover:underline" href="health">Health</a>
 				</div>
 			</nav>
+
 			<div class="lg:flex">
 				<section class="mx-5 lg:w-1/2 lg:mx-20">
 					<h1 class="mt-10 text-center font-bold text-2xl lg:hidden"><span class="text-[#FEC505]">H</span>appy <span class="text-[#44B562]">H</span>ealth</h1>
@@ -30,13 +32,13 @@
 						<p class="text-sm md:text-base lg:text-3xl font-bold text-justify">Discover <span class="text-[#FEC505]">Happiness</span> score and <span class="text-[#14D654]">Health</span> score <span class="font-medium">(life expectancy)</span> since 2015 in every country all around the world !</p>
 						<p class="text-justify text-xs  md:text-sm font-light mt-5 lg:text-xl"><span class="font-bold">Happiness</span> scored according to GDP per Capita, Family, <span class="font-bold">Life Expectancy</span>, Freedom, Generosity, Trust Government Corruption describe the extent to which these factors contribute in evaluating the happiness in each country.</p>
 						<div class="flex justify-around lg:w-1/2">
-							<a href="happiness"><button class="mt-5 bg-[#FEC505] font-bold w-24 h-8 text-sm md:text-base lg:h-12 lg:w-48 btnhappy">Happiness </button></a>
+							<a href="happiness"><button class="mt-5 bg-[#FEC505] font-bold w-24 h-8 text-sm md:text-base lg:h-12 lg:w-48 btnhappy">Happiness</button></a>
 							<a href="health"><button class="mt-5 bg-[#14D654] font-bold w-24 h-8 text-sm md:text-base lg:h-12 lg:w-48 btnhealth" >Health</button></a>
 						</div>
 					</div>
 					<div class="mt-5 bg-[#1A0245] rounded-xl" id="chart">
 						<p class="text-[10px] md:text-base text-center">Average World Hapiness Score over time</p>
-						<div>
+						<div class="lg:w-full lg:h-full">
 			  				<canvas id="myChart"></canvas>
 						</div>
 					</div>
@@ -59,9 +61,9 @@
 
 							</div>
 							<div class="flex justify-around mt-10">
-								<i id="happy_left" class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
+								<i class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
 								<p class="text-sm text-[#787878] md:text-base">2022</p>
-								<i id="happy_right" class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
+								<i class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
 							</div>
 						</div>
 
@@ -77,9 +79,9 @@
 								</div>
 							</div>
 							<div class="flex justify-around mt-10">
-								<i id="health_left" class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
+								<i class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
 								<p class="text-sm text-[#787878] md:text-base md:mt-5">2022</p>
-								<i id="health_right" class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
+								<i class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
 							</div>
 						</div>
 					</div>
