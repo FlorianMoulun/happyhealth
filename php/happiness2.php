@@ -70,9 +70,9 @@
                             </div>
                         </div>
                         <div class="flex justify-around mt-10">
-                            <i class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
+                            <i class="fa-solid fa-arrow-left text-[#14D654] text-xs lg:text-lg md:mt-5"></i>
                             <p class="text-sm text-[#787878] md:text-base md:mt-5">2022</p>
-                            <i class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
+                            <i class="fa-solid fa-arrow-right text-[#14D654] text-xs lg:text-lg md:mt-5"></i>
                         </div>
                     </div>
             </div> <!--Fin des 2 BLOCS-->
@@ -80,10 +80,10 @@
             <!--GRAPHIQUE 1-->
             <div class=" mt-8 bg-[#1A0245] rounded-xl" id="chart">
                 <h2 class="mb-10 text-xs lg:text-xl xl:text-xl text-center font-bold">Average World Hapiness Score over time</h2>
-                <div class=" blocdate flex justify-between mt-3"> <!--Bloc Date Podium-->
-                        <i class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
+                <div class=" blocdate flex justify-evenly mt-3"> 
+                        <i class="fa-solid fa-arrow-left text-[#FEC505] text-xs lg:text-lg"></i>
                         <p class="text-[#787878]">2022</p>
-                        <i class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
+                        <i class="fa-solid fa-arrow-right text-[#FEC505] text-xs lg:text-lg"></i>
 				</div>
                 <div class="w-5/6">
                     <canvas id="myChart"></canvas>
@@ -139,32 +139,47 @@
                         <h2 class="ml-10 mt-10 font-bold">Switzerland</h2>
                     </div>
                     <div class="flex justify-between mt-10">
-                        <i class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
+                        <i class="fa-solid fa-arrow-left text-[#FEC505] text-xs lg:text-lg"></i>
                         <p class="text-[#787878]">2022</p>
-                        <i class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
+                        <i class="fa-solid fa-arrow-right text-[#FEC505] text-xs lg:text-lg"></i>
                     </div>
                 </div>
             </div>
 
 
             <!--PODIUM-->
-            <div class="bg-[#1A0245] w-full mt-8 rounded-xl w-full lg:w-9/12"><!--Container podium-->
-                <h3 class="text-center text-xs lg:text-base  text-[#FEC505] font-bold">Top 3 Countries per year</h3>
-                    <div class=" blocdate flex justify-evenly mt-3"> <!--Bloc Date Podium-->
-							<i class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
-							<p class="text-[#787878]">2022</p>
-							<i class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
-					</div>
+            <div class="lg:w-full lg:flex lg:justify-center"><!--Placer le graphique-->
+                <div class="bg-[#1A0245] w-full mt-8 ml-2 lg:ml-8 rounded-xl w-full lg:w-9/12"><!--Container podium-->
+                    <h3 class="text-center text-xs lg:text-base  text-[#FEC505] font-bold">Top 3 Countries per year</h3>
+                        <div class=" blocdate flex justify-evenly mt-3"> <!--Bloc Date Podium-->
+                                <i class="fa-solid fa-arrow-left text-[#FEC505] text-xs lg:text-lg"></i>
+                                <p class="text-[#787878] text-xs lg:text-base">2022</p>
+                                <i class="fa-solid fa-arrow-right text-[#FEC505]  text-xs lg:text-lg"></i>
+                        </div>
 
-                    <div class="blocpod"><!--Bloc du podium-->
-						<p class=" den text-base font-bold">Denmark</p>
-						<p class="fin text-xl font-bold">Finland</p>
-						<p class="ice text-base font-bold">Iceland</p>
-                        <div class="blocpod3 flex justify-end"><p class="text-2xl font-bold mr-16">3</p></div>
-                        <div class="blocpod2 flex justify-center"><p class="text-3xl font-bold">2</p></div>
-                        <div class="blocpod1 flex justify-center"><p class="text-3xl font-bold">1</p></div>
-                    </div>
+                        <div class=""><!--Bloc du podium-->
+                            <div class="w-full flex justify-evenly lg:h-full"><!--Placer les pays-->
+                                <p class="text-xs lg:text-base font-bold">Denmark</p>
+                                <p class="text-xs lg:text-xl font-bold xl:mr-5">Finland</p>
+                                <p class="text-xs lg:text-sm font-bold">Iceland</p>
+                            </div>
+
+                            <div class="w-full flex justify-center mb-8 "><!--Placer le podium 1-->
+                                <div class="absolute flex justify-center bg-[#FEC505] w-24 h-10 rounded z-2"><p class="text-2xl lg:text-4xl font-bold">1</p></div>
+                            </div>
+                           
+                            <div class="absolute w-full lg:h-2 lg:ml-10  mb-8 ml-8 md:mb-4 md:ml-32  "><!--Placer podium 2-->
+                                <div class=" absolute bg-[#FEC505] md:w-40 xl:h-7 lg:h-5 lg:w-32 md:h-9 rounded  h-7 w-20 z-1"><p class="w-full text-center text-xl lg:text-3xl font-bold">2</p></div>
+                            </div>
+                            
+                            <div class="flex justify-center w-full"><!--Placer le podium 3-->
+                                <div class="flex w-9/12 h-7  md:h-9 lg:h-15 xl:w-12/12 md:w-3/5 lg:w-4/5 lg:h-7 bg-[#FEC505] rounded "><p class="text-right w-full text-xs lg:text-2xl mr-8 font-bold">3</p></div>
+                            </div>
+                           
+                        </div>
+                </div>
             </div>
+            
 
             
 
