@@ -1,7 +1,6 @@
 <?php
 	
 ?>
-
 	<!DOCTYPE html>
 	<html lang="fr">
 	<head>
@@ -16,7 +15,7 @@
 		<main class="bg-[#200355] h-full text-stone-50">
 			<nav class=" h-24 font-bold flex justify-around items-center lg:justify-between">
 				<div class="lg:flex lg:ml-10">
-					<img class="lg:mr-10" src="assets/media/logo.png">
+					<img class="lg:mr-10" src="assets/media/logo.png" alt="logo du site, la lettre H avec dégradée de vert et de jaune">
 					<h2 class="hidden lg:flex lg:text-2xl">Happy health </h2>
 				</div>
 				<div class="lg:mr-10">
@@ -24,7 +23,6 @@
 					<a class="lg:text-2xl lg:ml-10 hover:text-[#4CBA69] hover:underline" href="health">Health</a>
 				</div>
 			</nav>
-
 			<div class="lg:flex">
 				<section class="mx-5 lg:w-1/2 lg:mx-20">
 					<h1 class="mt-10 text-center font-bold text-2xl lg:hidden"><span class="text-[#FEC505]">H</span>appy <span class="text-[#44B562]">H</span>ealth</h1>
@@ -58,8 +56,6 @@
 									<h2 id="country_happy" class="text-sm md:text-base font-bold md:ml-5"> </h2>
 									<p id="value_happy" class="text-sm  md:text-base text-[#787878] text-center"> </p>
 								</div>
-								
-
 							</div>
 							<div class="flex justify-around mt-10">
 								<i id="arrow_happy_left" class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
@@ -70,7 +66,6 @@
   <!--carousel champions health-->
 						<div class="bg-[#1A0245] divboxshadow w-1/2">
 							<div class="flex justify-center"><div class="circle"><i class="fa-solid fa-trophy text-[#14D654] "></i></div></div>
-							
 							<h3  class="text-[#14D654] text-center font-bold text-[10px] md:text-base">Champion of Health</h3>
 							<div class="flex mt-5">
 								<img id="flag_health" class="w-1/5 ml-5 md:ml-10" src=" ">
@@ -95,14 +90,10 @@
 		       					<img class="mx-2" src="assets/media/quote.svg">
 		       					<hr class="w-[150px] mt-2">
 		       				</div>
-		       				
 		                	<button class="mt-5" id ="getData">
 		                   	 	<i class="fa-solid fa-shuffle"></i>
 		               		 </button>
 	    				</div>
-	    
-
-
 					</div>
 				</section>
 			</div>
@@ -111,11 +102,11 @@
 				<p class="text-sm text-[#787878] mt-5">&copy; 2022 Floriane Simmet - Made with &#9829; </p>
 			</footer>
 		</main>
-		<script type="text/javascript" src="js/happy_champion.js"></script>
-		<script type="text/javascript" src="js/health_champion.js"></script>
+		
 		<script type="text/javascript" src="js/advice.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<script type="text/javascript" src="js/chart.js"></script>
+		<script type="text/javascript" src="js/happy_champion.js"></script>
+		<script type="text/javascript" src="js/health_champion.js"></script>
 	</body>
 	</html>
-
