@@ -73,15 +73,15 @@
 							
 							<h3 id="country_health" class="text-[#14D654] text-center font-bold text-[10px] md:text-base">Champion of Health</h3>
 							<div class="flex mt-5">
-								<img id="flag_health" class="w-1/5 ml-5 md:ml-10" src="https://countryflagsapi.com/svg/Iceland">
+								<img id="flag_health" class="w-1/5 ml-5 md:ml-10" src=" ">
 								<div class="ml-5">
-									<h2 class="text-sm font-bold md:text-base md:ml-5">Iceland</h2>
-									<p id="value_health" class="text-sm text-[#787878] text-center md:text-base">0,95</p>
+									<h2 class="text-sm font-bold md:text-base md:ml-5"> </h2>
+									<p id="value_health" class="text-sm text-[#787878] text-center md:text-base"> </p>
 								</div>
 							</div>
 							<div class="flex justify-around mt-10">
 								<i id="arrow_health_left" class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
-								<p id="year_health" class="text-sm text-[#787878] md:text-base md:mt-5">2022</p>
+								<p id="year_health" class="text-sm text-[#787878] md:text-base md:mt-5"> </p>
 								<i id="arrow_health_right" class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
 							</div>
 						</div>
