@@ -111,7 +111,7 @@
 				<p class="text-sm text-[#787878] mt-5">&copy; 2022 Floriane Simmet - Made with &#9829; </p>
 			</footer>
 		</main>
-		<script type="text/javascript" src="js/champion.js"></script>
+		<script type="text/javascript" src="js/happy_champion.js"></script>
 		<script type="text/javascript" src="js/advice.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<script type="text/javascript" src="js/chart.js"></script>
