@@ -71,11 +71,11 @@
 						<div class="bg-[#1A0245] divboxshadow w-1/2">
 							<div class="flex justify-center"><div class="circle"><i class="fa-solid fa-trophy text-[#14D654] "></i></div></div>
 							
-							<h3 id="country_health" class="text-[#14D654] text-center font-bold text-[10px] md:text-base">Champion of Health</h3>
+							<h3  class="text-[#14D654] text-center font-bold text-[10px] md:text-base">Champion of Health</h3>
 							<div class="flex mt-5">
 								<img id="flag_health" class="w-1/5 ml-5 md:ml-10" src=" ">
 								<div class="ml-5">
-									<h2 class="text-sm font-bold md:text-base md:ml-5"> </h2>
+									<h2 id="country_health" class="text-sm font-bold md:text-base md:ml-5"> </h2>
 									<p id="value_health" class="text-sm text-[#787878] text-center md:text-base"> </p>
 								</div>
 							</div>
@@ -112,6 +112,7 @@
 			</footer>
 		</main>
 		<script type="text/javascript" src="js/happy_champion.js"></script>
+		<script type="text/javascript" src="js/health_champion.js"></script>
 		<script type="text/javascript" src="js/advice.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<script type="text/javascript" src="js/chart.js"></script>

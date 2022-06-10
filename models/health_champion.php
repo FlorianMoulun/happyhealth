@@ -1,7 +1,7 @@
 <?php
     require_once('connect.php');
     
-    $selec_year = $_POST["selec_year"];
+    $selec_year = $_POST["select_year"];
     $sth = $bdd->prepare('SELECT country, MAX(`value`) AS val_max, `year` FROM countries_has_years
     INNER JOIN countries ON  countries.id = countries_has_years.countries_id
     INNER JOIN `values` ON  values.id = countries_has_years.health
