@@ -7,7 +7,7 @@ $sth = $bdd->prepare('SELECT country, `year`, value FROM countries_has_years
                         INNER JOIN countries ON countries_id = countries.id
                         INNER JOIN years ON years_id = years.id
                         INNER JOIN `values` ON happiness_rank = values.id
-                        WHERE `year` = 2022
+                        WHERE `year` = :year
                         ORDER BY happiness_rank
                         LIMIT 3');
 
