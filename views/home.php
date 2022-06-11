@@ -62,9 +62,9 @@
 
 							</div>
 							<div class="flex justify-around mt-10">
-								<i id="arrow_happy_left" class="fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
+								<i id="arrow_happy_left" class="cursor-pointer fa-solid fa-arrow-left text-[#FEC505] text-2xl"></i>
 								<p id="year_happy" class="text-sm text-[#787878] md:text-base"> </p>
-								<i id="arrow_happy_right" class="fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
+								<i id="arrow_happy_right" class="cursor-pointer fa-solid fa-arrow-right text-[#FEC505] text-2xl"></i>
 							</div>
 						</div>
   <!--carousel champions health-->
@@ -80,9 +80,9 @@
 								</div>
 							</div>
 							<div class="flex justify-around mt-10">
-								<i id="arrow_health_left" class="fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
+								<i id="arrow_health_left" class="cursor-pointer fa-solid fa-arrow-left text-[#14D654] text-2xl md:mt-5"></i>
 								<p id="year_health" class="text-sm text-[#787878] md:text-base md:mt-5"> </p>
-								<i id="arrow_health_right" class="fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
+								<i id="arrow_health_right" class="cursor-pointer fa-solid fa-arrow-right text-[#14D654] text-2xl md:mt-5"></i>
 							</div>
 						</div>
 					</div>
